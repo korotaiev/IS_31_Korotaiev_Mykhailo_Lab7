@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+.tasks {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+}
+.tasks .task10 {
+  grid-row: 3;
+  grid-column: 2;
+}
+.tasks div {
+  height: 110px;
+  padding: 16px;
+  background-color: lightgreen;
+  margin-left: 12px;
+  margin-bottom: 18px;
+  margin-top: 24px;
+}
+.tasks div p {
+  font-size: 24px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+.tasks a:link,
+.tasks a:active {
+  font-size: 24px;
+  color: blue;
+}
+.tasks a:hover,
+.tasks a:visited {
+  color: rgb(161, 83, 177);
+}
+.task5 {
+  padding: 24px 16px;
+  background-color: lightgreen;
+  margin-left: 12px;
+}
+
+/* TASK5 */
+.taskTitle {
+  background-color: lightgreen;
+  height: 350px;
+  padding: 10px 20px;
+  margin: 20px;
+  width: fit-content;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+#place {
+  background-color: green;
+  width: 150px;
+  height: 250px;
+  margin: -310px 40px;
+}
+
+/* TASK7 */
+.task7 p {
+  font-size: 24px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  padding: 36px;
+}
+.item {
+  padding-left: 36px;
+}
+.item ul {
+  padding-left: 42px;
+}
+
+/* TASK8 */
+.task8 p {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.login-form label {
+  margin-bottom: 24px;
+}
+.login-form button {
+  font-size: 18px;
+  margin-top: 18px;
+  padding: 6px 48px;
+}
+.login-form {
+  font-size: 24px;
+  margin: 20px;
+}
+
+/* TASK9 */
+.widget {
+  font-size: 24px;
+  margin: 24px;
+}
+.widget button {
+  font-size: 18px;
+  padding: 3px 12px;
+  margin-top: 12px;
+  background-color: black;
+  color: white;
+}
+
+/* TASK10 */
+#controls {
+  margin: 20px 0 0 5px;
+}
+#controls button {
+  padding: 3px 6px;
+}
+#controls input {
+  padding: 5px;
+}
